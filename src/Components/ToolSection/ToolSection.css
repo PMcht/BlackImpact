@@ -1,0 +1,57 @@
+#IconSection{
+    background-image: radial-gradient(circle,rgba(255,255,255,.15),transparent 69%);
+    overflow: hidden !important;
+    text-align: center;
+}
+
+.scaleLogo{
+    transition: all .5s ease-in-out;
+    position: absolute;
+    left: -4vw;
+}
+
+.flexIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0
+}
+
+.toolLogoContainer{
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform 0.1s ease;
+}
+
+.toolLogoContainer svg{
+    width: 12rem;
+    height: 12rem;
+    opacity: .15;
+    outline-offset: 1.5rem;
+    background-color: #fff;
+    border-radius: 100%;
+    outline: 2px dashed #e6e6e6;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    display: flex;
+    position: relative;
+    box-shadow: 0 2px 1rem rgba(26,26,26,.5);
+    padding: 2rem;
+    margin: 3rem
+}
+.toolLogoContainer svg:hover{
+    opacity: 1;
+    outline-offset: 2rem;
+}
+
+.toolDot{
+    width: 0.5rem;
+    height: 0.5rem;
+    opacity: .1;
+    background-color: #fff;
+    border-radius: 100%;
+    margin: 0rem 9rem
+}

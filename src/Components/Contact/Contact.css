@@ -1,0 +1,41 @@
+#Contact{
+  text-align: center;
+}
+
+
+#impactContact{
+  z-index: 11 !important;
+  
+}
+
+.contactLinks{
+  z-index: 10;
+  margin-top: 5rem;
+}
+
+.contactLinks svg{
+  z-index: 11;
+  width: 5rem;
+  height: 5rem;
+  stroke: var(--bg-color);
+  outline-offset: .5rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  outline: 2px dashed #e6e6e6;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s;
+  display: flex;
+  position: relative;
+  box-shadow: 0 2px 1rem rgba(26,26,26,.5);
+  padding: 1rem;
+  margin: 2rem;
+}
+.contactLinks svg:hover{
+  outline-offset: 1rem;
+}
+
+.coffee{
+  z-index: 11;
+}

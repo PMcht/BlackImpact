@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  font-family: 'League Spartan', sans-serif;
+
+  --gray: #ebeaef;
+  --text-gray: #838282;
+  --blue: #2567f4;
+  --bg-color: #272727;
+  
+  --font-normal: #cecece;
+
+  scroll-behavior: smooth;
+  cursor: default;
+  
+}
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--font-normal);
+}
+
+body{
+  margin: 0;
+  overflow-x: hidden;
+  background-color: var(--bg-color);
+  text-rendering: optimizeLegibility;
+}
+
+a{
+  text-decoration: none;
+  font-size: calc(20px + 2*(50vw - 300px)/1200)!important;
+  cursor: pointer;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+}
+
+h1{
+  font-size: 6rem;
+  line-height: 6rem;
+  text-transform: uppercase;
+  z-index: 1;
+  display:inline
+}
+
+h2{
+  font-size: 4.5rem;
+}
+
+h3{
+  font-size: 3rem;
+  font-weight: 300
+}
+
+h4{
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.word{
+  display: inline-block;
+}
+h1, .heroText .word, #about .word, #Cases .word{
+  overflow: hidden;
+}
+h1 .word{
+  padding: 0 1rem;
+}
+h3 .word{
+  padding: 0 0.4rem;
+}
+.char{
+  display: inline-block;
+  transition: all .3s linear;
+}
+
+.toShow{
+  transform: translate(0px, 100px);
+}
+
+.fade-in {
+  transform: translate(0px, 0px);
+}
+
+
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+  :root {
+    font-size: 10px;
+  }
+}
+
+/* Large devices (laptops/desktops, 769px and up) */
+@media only screen and (min-width: 769px) {
+  :root {
+    font-size: 12px;
+  }
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  :root {
+    font-size: 14px;
+  }
+}

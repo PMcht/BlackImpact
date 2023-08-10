@@ -1,0 +1,13 @@
+#NameSection{
+    position: relative;
+    padding: 10vh 0
+}
+
+.logo{
+    max-height: 6rem;
+    margin: 1rem 2rem
+}
+
+.logosName{
+    flex-wrap: wrap;
+}
